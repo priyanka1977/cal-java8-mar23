@@ -7,6 +7,7 @@ public class TestComparatorWithAnonymousClass {
 
 	public static void main(String[] args) {
 		
+		// anonymous block of code for Comparator interface
 		Comparator<String> comparator = new Comparator<String>() {
 			@Override
 			public int compare(String o1, String o2) {
