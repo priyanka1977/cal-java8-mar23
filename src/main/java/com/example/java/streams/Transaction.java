@@ -41,9 +41,9 @@ public class Transaction {
 		list.add(new Transaction("cleaning items", 2, 120));
 		list.add(new Transaction("electronic", 6, 4500));
 		list.add(new Transaction("Bakery items", 3, 180));
-		list.add(new Transaction("Juices", 5, 800));
+		list.add(new Transaction("grocery", 5, 800));
 		list.add(new Transaction("stationary", 10, 450));
-		list.add(new Transaction("laptop", 4, 78999));
+		list.add(new Transaction("grocery", 4, 78999));
 		list.add(new Transaction("cutlery", 7, 320));
 		return list;
 	}

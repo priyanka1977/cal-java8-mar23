@@ -10,7 +10,6 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import com.training.streams.Dish.Type;
 
 public class TestDishCollection {
 	public static void getDishesCaloriesLessThan400(List<Dish> menu) {
@@ -21,7 +20,7 @@ public class TestDishCollection {
 	public static void getDishWithMaximumCalories(List<Dish> menu) {
 		
 		
-		
+	}
 
 	public static void Skip2AndLimit3Dishes(List<Dish> menu) {
 	}
