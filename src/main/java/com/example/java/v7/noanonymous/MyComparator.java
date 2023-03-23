@@ -8,4 +8,6 @@ public class MyComparator implements Comparator<String> {
 	public int compare(String o1, String o2) {
 		return Integer.compare(o1.length(), o2.length());
 	}
+	
+	// (String 01, String o2) ->  Integer.compare(o1.length(), o2.length()
 }
