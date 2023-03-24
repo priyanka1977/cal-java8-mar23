@@ -10,6 +10,8 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import com.example.java.streams.Dish.Type;
+
 public class TestDishCollection {
 	public static void getDishesCaloriesLessThan400(List<Dish> menu) {
 		// sort dishes based on filter
@@ -48,8 +50,9 @@ public class TestDishCollection {
 
 	public static void getTwoMeatDishes(List<Dish> menu) {
 		// Limit
-		List<Dish> meat = menu.stream().filter(d -> d.getType() == Dish.Type.MEAT).limit(2)
+		List<Dish> meat1 = menu.stream().filter(d -> d.getType() == Dish.Type.MEAT).limit(2)
 				.collect(Collectors.toList());
+		System.out.println(meat1);
 	}
 
 	public static void getVegetrianDishes(List<Dish> menu) {
